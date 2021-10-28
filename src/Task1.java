@@ -9,11 +9,6 @@ public class Task1 {
 
     Overall overall = new Overall(1, 111, "potato", 10, 15, 10, 20, 30);
 
-    //создание списка с товарами (с объектами классов)
-    Commodity[] arrayCommodity = new Commodity[3];
-    arrayCommodity[0] = fragile;
-    arrayCommodity[1] = scrapboarding;
-    arrayCommodity[2] = overall;
 
 
 
