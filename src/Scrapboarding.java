@@ -1,7 +1,7 @@
 public class Scrapboarding extends Commodity{
 
     private String time;
-    public Scrapboarding(int id, int productCode, String name, int wholesalePrice, int retailPrice) {
+    public Scrapboarding(int id, int productCode, String name, int wholesalePrice, int retailPrice, String time) {
         super(id, productCode, name, wholesalePrice, retailPrice);
         this.time = time;
     }
@@ -12,6 +12,6 @@ public class Scrapboarding extends Commodity{
 @Override
     public String toString() {
         return super.toString() +
-                " time " + time;
+                "\ntime " + time;
 }
 }

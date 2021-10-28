@@ -4,7 +4,7 @@ public class Overall extends Commodity{
     public int weight;
     public int width;
 
-    public Overall(int id, int productCode, String name, int wholesalePrice, int retailPrice) {
+    public Overall(int id, int productCode, String name, int wholesalePrice, int retailPrice, int height, int weight, int width) {
         super(id, productCode, name, wholesalePrice, retailPrice);
 
         this.height = height;
@@ -23,8 +23,8 @@ public class Overall extends Commodity{
 
     public String toString() {
         return super.toString() +
-                " height " + height +
-                " weight " + weight +
-                " width " + width;
+                "\nheight " + height +
+                "\nweight " + weight +
+                "\nwidth " + width;
     }
 }
